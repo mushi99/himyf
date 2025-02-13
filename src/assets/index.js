@@ -1,7 +1,7 @@
 
 import picture from "./picture.png";
-import picture from "./aquarium1.jpg";
-import picture from "./aurora2.jpg";
+import aquarium1 from "./aquarium1.jpg";
+import aurora2 from "./aurora2.jpg";
 
 import seasons from "./seasons.jpg";
 import lany from "./lany.png";
