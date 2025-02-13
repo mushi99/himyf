@@ -1,5 +1,7 @@
 
 import picture from "./picture.png";
+import picture from "./aquarium1.jpg";
+import picture from "./aurora2.jpg";
 
 import seasons from "./seasons.jpg";
 import lany from "./lany.png";
@@ -20,6 +22,8 @@ import mocha from "./mocha.gif";
 export {
 
 picture,
+aquarium1,
+aurora2,
 seasons,
 mocha,
 fireworks,
