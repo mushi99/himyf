@@ -1,6 +1,6 @@
 import React from 'react'
-import { aquarium1 } from '../assets'
-import { aurora2 } from '../assets'
+import { cave } from '../assets'
+import { lastDay } from '../assets'
 import Carousel from './Carousel'
 import { ImageCard } from './ImageCard'
 import {ArrowLeft } from './icons'
@@ -10,8 +10,8 @@ function Picture() {
   const navigate = useNavigate();
 
   const pictures = [
-    { Image: aquarium1, title: 'February 30, 3024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},   
-    { Image: aurora2, title: 'February 30, 3024', description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, possimus!"},
+    { Image: cave, title: 'August 18, 2024', description: "Remember the cave? Those rocks were crazy, the echoes were so cute!"},   
+    { Image: lastDay, title: 'August 28, 2024', description: "Last day of the most amazing trip of my life!"},
 
   ]
   return (
