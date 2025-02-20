@@ -18,12 +18,12 @@ import malhbibi from "./malhbibi.jpeg";
 import fireworks from "./fireworks.gif";
 import mocha from "./mocha.gif";
 
-
+import scotland from "scotland.png";
 
 
 export {
 
-
+scotland,
 picture1,
 lastDay,
 frozen,

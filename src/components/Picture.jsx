@@ -5,12 +5,14 @@ import Carousel from './Carousel'
 import { ImageCard } from './ImageCard'
 import {ArrowLeft } from './icons'
 import { useNavigate } from 'react-router-dom'
+import { scotland } from '../assets'
 
 function Picture() {
   const navigate = useNavigate();
 
   const pictures = [
     { Image: cave, title: 'August 18, 2024', description: "Remember the cave? Those rocks were crazy, the echoes were so cute!"},   
+    { Image: scotland, title: 'August 26, 2024', description: "From talking about it in snapchat to actually going to Edinburg, making my dreams come true!"},
     { Image: lastDay, title: 'August 28, 2024', description: "Last day of the most amazing trip of my life!"},
 
   ]
