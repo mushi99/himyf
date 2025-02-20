@@ -18,12 +18,32 @@ import malhbibi from "./malhbibi.jpeg";
 import fireworks from "./fireworks.gif";
 import mocha from "./mocha.gif";
 
-import scotland from "scotland.png";
+import aquarium from "./aquarium.png";
+import arcade from "./arcade.png";
+import arcade1 from "./arcade1.png";
+import boatRide from "./boatRide.png";
+import butterbeer from "./butterbeer.png";
+import bwood from "./bwood.png";
+import cambridge from "./cambridge.png";
+import cambridge1 from "./cambridge1.png";
+import church from "./church.png";
+import scotland from "./scotland.png";
+import stair from "./stair.png";
 
 
 export {
 
 scotland,
+arcade,
+butterbeer,
+arcade1,
+aquarium,
+boatRide,
+bwood,
+cambridge,
+cambridge1,
+church,
+stair,
 picture1,
 lastDay,
 frozen,

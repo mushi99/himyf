@@ -1,6 +1,5 @@
 import React from 'react'
-import {firstDate} from '../assets'
-import {firstTrip} from '../assets'
+import { arcade, butterbeer, bwood, cambridge, cambridge1, cave, church, firstTrip, stair } from '../assets'
 import Carousel from './Carousel'
 import { ImageCard } from './ImageCard'
 import {ArrowLeft } from './icons'
@@ -11,7 +10,14 @@ function Message() {
 
   // customize your own picture, title and subtext. You can also add more picture.
   const pictures = [
-    { Image: firstDate, title: 'August 04, 2024', description: "First Date!"},   
+    { Image: cave, title: 'August 18, 2024', description: "Remember the cave? Those rocks were crazy, the echoes were so cute!"},
+    { Image: arcade, title: 'August 09, 2024', description: "This was such a cute and surprising date bb! Remember I sat down and we took photos and people thought I was posing lol!"}, 
+    { Image: butterbeer, title: 'August 28, 2024', description: "I loved the butter beer more than the icecream!"},
+    { Image: bwood, title: 'August 28, 2024', description: "The palace from the bollywood movie that I can't remember >_<"},
+    { Image: cambridge1, title: 'August 6, 2024', description: "Cambridge: Your ARMS! (˶˃⤙˂˶)(drooling)"},
+    { Image: cambridge, title: 'August 6, 2024', description: "Cambridge: Good day! "},
+    { Image: church, title: 'August 28, 2024', description: "The isolated church: I still remember our convo on how middleeast is growing, weirdly we don't talk about deep stuff like that. "},
+    { Image: stair, title: 'August 26, 2024', description: "The stairs where apparently Joker was shot lol XD!"},
     { Image: firstTrip, title: 'August 28, 2024', description: "First Trip!"},
 
   ]

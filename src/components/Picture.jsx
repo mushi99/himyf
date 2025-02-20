@@ -1,19 +1,24 @@
 import React from 'react'
-import { cave } from '../assets'
+import {arcade1, firstDate} from '../assets'
 import { lastDay } from '../assets'
 import Carousel from './Carousel'
 import { ImageCard } from './ImageCard'
 import {ArrowLeft } from './icons'
 import { useNavigate } from 'react-router-dom'
 import { scotland } from '../assets'
+import {aquarium} from '../assets'
+import {boatRide} from '../assets'
 
 function Picture() {
   const navigate = useNavigate();
 
-  const pictures = [
-    { Image: cave, title: 'August 18, 2024', description: "Remember the cave? Those rocks were crazy, the echoes were so cute!"},   
-    { Image: scotland, title: 'August 26, 2024', description: "From talking about it in snapchat to actually going to Edinburg, making my dreams come true!"},
+  const pictures = [   
+    { Image: firstDate, title: 'August 04, 2024', description: "First Date!"},   
+    { Image: scotland, title: 'August 26, 2024', description: "From talking about it in snapchat to actually going to Edinburg, you make my dreams come true!"},
     { Image: lastDay, title: 'August 28, 2024', description: "Last day of the most amazing trip of my life!"},
+    { Image: boatRide, title: 'August 17, 2024', description: ""},   
+    { Image: arcade1, title: 'August 09, 2024', description: "Arcade Date Checked!"},  
+    { Image: aquarium, title: 'August 24, 2024', description: "First visit to aquarium! We need to take our sophia and zach here."},
 
   ]
   return (
